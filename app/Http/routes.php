@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/iminterested', ['as' => 'get-user', 'uses' => 'UsersController@getUser']);
+Route::post('/iminterested', ['as' => 'post-user', 'uses' => 'UsersController@postUser']);
