@@ -1,0 +1,155 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.form-signin {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 40px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.white {
+    color: #FFF;
+}
+
+h1 {
+    font-family: 'Helvetica';
+    font-size: .5em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0 0;
+}
+
+h3 {
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-size: .2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1em;
+    margin: .3em 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg-red {
+    background-color: rgb(191, 1, 30);
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 12em;
+}
+.title hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #000;
+    margin: 0 0;
+    padding: 0;
+    clear: both;
+}
+
+.kargaroo-logo {
+    width: .5em;
+}
+
+.squared {
+    width: .5em;
+    height: .5em;
+    overflow: hidden;
+}
+
+.wrapper * {
+    float: left;
+}
+
+.button {
+    border: 2px #FFF solid;
+    color: #FFF;
+    font-size: 1em;
+    margin: 0 0; 
+    font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    line-height: .2em;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 60px;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+.button:hover {
+    background-color: #FFF;
+    color: rgb(191, 1, 30);
+}
+
+button {
+  background: transparent;
+}
+
+.form-control {
+  border-radius: 0;
+  border-color: #fff;
+}
