@@ -25,6 +25,11 @@ class UsersController extends Controller {
 			return $validator->errors();
 		} else {
 			User::create($request->all());
+			redirect()->route('thanks');
 		}
+	}
+	
+	function getThanks() {
+		return view('thanks');
 	}
 }
