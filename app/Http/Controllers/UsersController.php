@@ -18,7 +18,7 @@ class UsersController extends Controller {
 			'company' => 'required|alpha|max:255',
 			'address' => 'max:512',
 			'mail' => 'required|email|max:255',
-			'phone' => 'numeric|max:20'
+			'phone' => 'numeric'
 		]);
 		
 		if ($validator->fails()) {
