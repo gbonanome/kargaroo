@@ -5,9 +5,9 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link href="/css/style.css" rel="stylesheet" type="text/css">
 	</head>
-	<body>
+	<body class="bg-red">
 
-		<div class="container">
+		<div class="container white">
 		
 			<form class="form-signin form-horizontal" method="POST" action="/jointhecommunity">
 				<h2 class="form-signin-heading">Join the community</h2>
@@ -49,7 +49,7 @@
 				  </div>
 				  <div class="form-group">
 				    <div class="col-sm-offset-3 col-sm-9">
-				      <button type="submit" class="btn btn-lg btn-default">Join</button>
+				      <button type="submit" class="button">Join</button>
 				    </div>
 				  </div>
 			</form>
