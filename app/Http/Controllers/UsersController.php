@@ -8,8 +8,7 @@ use App\Models\User;
 
 class UsersController extends Controller {
 	function getUser() {
-		//return view('users.create');
-		return 'YEsss';
+		return view('users.create');
 	}
 	
 	function postUser(Request $request) {
